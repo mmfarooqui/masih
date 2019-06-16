@@ -1,0 +1,17 @@
+h1{
+    color: #185dd5;
+    border: 5px aquamarine solid;
+}
+
+h4{
+    color: rgb(255,100,0);
+}
+li{
+    color: rgba(11, 99, 150, .6);
+}
+body{
+    background: pink;
+    /* background: url(https://upload.wikipedia.org/wikipedia/en/3/3d/MountainAshFloor/jpg); */
+    /* background-size: stretch; */
+    /* background-repeat: no-repeat; */
+}

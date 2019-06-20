@@ -1,3 +1,7 @@
-.teamName{
-    color: red;
+.Joker:hover{
+    background: url("https://i.pinimg.com/originals/ef/e5/df/efe5df96432c72cbdd6634be13351944.jpg") no-repeat;
+    color: blue;
+}
+.Brooklyn{
+    color: gray;
 }

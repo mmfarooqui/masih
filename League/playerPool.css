@@ -1,6 +1,28 @@
+.Joker{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.Joker span {
+	position:fixed;
+	top:170px;
+	left:500px;
+	width:600px;
+	padding:10px;
+	border:10px solid #000;
+	border-radius:10px;
+	left:-999em;
+	z-index:990;      
+}
 .Joker:hover{
-    background: url("https://i.pinimg.com/originals/ef/e5/df/efe5df96432c72cbdd6634be13351944.jpg") no-repeat;
-    color: blue;
+    visibility: visible;
+    color: purple;
+}
+.Joker:hover span{
+    left:300px;
+}
+* html .Joker span {
+    position:relative;
 }
 .Brooklyn{
     color: gray;

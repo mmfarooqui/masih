@@ -12,14 +12,10 @@ body{
 }
 .Joker span {
 	position:fixed;
-	top:170px;
+	top:100px;
 	left:500px;
-	width:600px;
-	padding:10px;
-	border:10px solid #000;
-	border-radius:10px;
-	left:-999em;
-	z-index:990;      
+	width:220px; 
+	left:-999em;     
 }
 .Joker:hover{
     visibility: visible;
@@ -42,14 +38,10 @@ body{
 }
 .theProcess span{
 	position:fixed;
-	top:170px;
+	top:130px;
 	left:500px;
-	width:630px;
-	padding:10px;
-	border:10px solid #000;
-	border-radius:10px;
-	left:-999em;
-	z-index:990;  
+	width:220px;
+	left:-999em;  
 }
 .theProcess:hover{
     visibility: visible;
@@ -71,16 +63,12 @@ body{
 	text-decoration:none;
 }
 .tacoJay span{
-	position:fixed;
-	top:170px;
-	left:500px;
-	width:630px;
-	padding:10px;
-	border:10px solid #000;
-	border-radius:10px;
-	left:-999em;
-	z-index:990;  
-}
+	position:fixed; 
+	top:160px; 
+	left:300px; 
+	width:220px; 
+	left:-999em; 
+ } 
 .tacoJay:hover{
     visibility: visible;
     color: red;

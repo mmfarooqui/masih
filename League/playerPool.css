@@ -38,7 +38,7 @@ body{
 }
 .theProcess span{
 	position:fixed;
-	top:130px;
+	top:76px;
 	left:500px;
 	width:220px;
 	left:-999em;  
@@ -64,7 +64,7 @@ body{
 }
 .tacoJay span{
 	position:fixed; 
-	top:160px; 
+	top:100px; 
 	left:300px; 
 	width:220px; 
 	left:-999em; 
@@ -80,6 +80,164 @@ body{
     position:relative;
 }
 .Indiana{
+	color: blue;
+	background-color: yellow;
+}
+.freshPrince{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.freshPrince span {
+	position:fixed;
+	top:76px;
+	left:500px;
+	width:220px; 
+	left:-999em;     
+}
+.freshPrince:hover{
+    visibility: visible;
+    color: blue;
+}
+.freshPrince:hover span{
+    left:300px;
+}
+* html .freshPrince span {
+    position:relative;
+}
+.Sacramento{
+	color: black;
+	background-color: purple;
+}
+.Book{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.Book span {
+	position:fixed;
+	top:70px;
+	left:500px;
+	width:220px; 
+	left:-999em;     
+}
+.Book:hover{
+    visibility: visible;
+    color: orange;
+}
+.Book:hover span{
+    left:300px;
+}
+* html .Book span {
+    position:relative;
+}
+.Denver{
 	color: yellow;
-	background-color: blue;
+	background-color: navy;
+}
+.Matador{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.Matador span {
+	position:fixed;
+	top:70px;
+	left:500px;
+	width:220px; 
+	left:-999em;     
+}
+.Matador:hover{
+    visibility: visible;
+    color: blue;
+}
+.Matador:hover span{
+    left:300px;
+}
+* html .Matador span {
+    position:relative;
+}
+.spicyP{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.spicyP span {
+	position:fixed;
+	top:70px;
+	left:500px;
+	width:220px; 
+	left:-999em;     
+}
+.spicyP:hover{
+    visibility: visible;
+    color: red;
+}
+.spicyP:hover span{
+    left:300px;
+}
+* html .spicyP span {
+    position:relative;
+}
+.Minnesota{
+	color: green;
+	background-color: navy;
+}
+.Swipa{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.Swipa span {
+	position:fixed;
+	top:70px;
+	left:500px;
+	width:220px; 
+	left:-999em;     
+}
+.Swipa:hover{
+    visibility: visible;
+    color: orangered;
+}
+.Swipa:hover span{
+    left:300px;
+}
+* html .Swipa span {
+    position:relative;
+}
+.Miami{
+	color: red;
+	background-color:black;
+}
+.drewBledsoe{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.drewBledsoe span {
+	position:fixed;
+	top:100px;
+	left:500px;
+	width:220px; 
+	left:-999em;     
+}
+.drewBledsoe:hover{
+    visibility: visible;
+	color: blue;
+}
+.drewBledsoe:hover span{
+    left:315px;
+}
+* html .drewBledsoe span {
+    position:relative;
+}
+.Lakers{
+	color: purple;
+	background-color: yellow;
+}
+div:nth-of-type(1) img{
+	width: 420px;
+	font-size: 200%;
+	text-align: left;
+	padding-top: 0.10em;
 }

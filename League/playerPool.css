@@ -223,13 +223,15 @@ body{
 }
 .drewBledsoe:hover{
     visibility: visible;
-	color: blue;
+	color: green;
+	text-align: center;  
 }
 .drewBledsoe:hover span{
-    left:315px;
+	left:315px;
+	font-size: 100%;
 }
 * html .drewBledsoe span {
-    position:relative;
+	position:relative;
 }
 .Lakers{
 	color: purple;
@@ -237,7 +239,100 @@ body{
 }
 div:nth-of-type(1) img{
 	width: 420px;
-	font-size: 200%;
-	text-align: left;
-	padding-top: 0.10em;
+}
+.Spida{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.Spida span {
+	position:fixed;
+	top:70px;
+	left:500px;
+	width:220px; 
+	left:-999em;     
+}
+.Spida:hover{
+    visibility: visible;
+    color: red;
+}
+.Spida:hover span{
+    left:300px;
+}
+* html .Spida span {
+    position:relative;
+}
+.Houston{
+	color: white;
+	background-color: red;
+}
+.Domas{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.Domas span {
+	position:fixed;
+	top:120px;
+	left:500px;
+	width:220px; 
+	left:-999em;     
+}
+.Domas:hover{
+    visibility: visible;
+    color: red;
+}
+.Domas:hover span{
+    left:300px;
+}
+* html .Domas span {
+    position:relative;
+}
+.chiefJustise{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.chiefJustise span {
+	position:fixed;
+	top:120px;
+	left:500px;
+	width:220px; 
+	left:-999em;     
+}
+.chiefJustise:hover{
+    visibility: visible;
+    color: blue;
+}
+.chiefJustise:hover span{
+    left:300px;
+}
+* html .chiefJustise span {
+    position:relative;
+}
+.theBaptist{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.theBaptist span {
+	position:fixed;
+	top:120px;
+	left:500px;
+	width:220px; 
+	left:-999em;     
+}
+.theBaptist:hover{
+    visibility: visible;
+    color: goldenrod;
+}
+.theBaptist:hover span{
+    left:300px;
+}
+* html .theBaptist span {
+    position:relative;
+}
+.Portland{
+	color: black;
+	background-color: red;
 }

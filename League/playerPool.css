@@ -336,3 +336,29 @@ div:nth-of-type(1) img{
 	color: black;
 	background-color: red;
 }
+.samuraiMyles{
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+}
+.samuraiMyles span {
+	position:fixed;
+	top:120px;
+	left:500px;
+	width:220px; 
+	left:-999em;     
+}
+.samuraiMyles:hover{
+    visibility: visible;
+    color: goldenrod;
+}
+.samuraiMyles:hover span{
+    left:300px;
+}
+* html .samuraiMyles span {
+    position:relative;
+}
+.Detroit{
+	color: red;
+	background-color: blue;
+}

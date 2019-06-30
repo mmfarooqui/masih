@@ -39,11 +39,11 @@
 
         <label>
             Email:
-            <input type="emial" placeholder="your email" required>
+            <input type="email" placeholder="your email" required>
         </label>
         <label>
             Password:
-            <input type="password" Placeholder="" minlength="5" maxlength="8" required>
+            <input type="password" pattern=".{5,8}" title="Password must be between 5 to 8 characters" required>
         </label>
 
         <br>
@@ -52,19 +52,19 @@
         <label>
             Birthday:
             <select name="Month" required>
-                <option>Month</option>
+                <option disabled selected>Month</option>
                 <option>January</option>
                 <option>February</option>
                 <option>March</option>
             </select>
             <select name="Day" required>
-                <option>Day</option>
+                <option disabled selected>Day</option>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
             </select>
             <select name="Year" required>
-                <option>Year</option>
+                <option disabled selected>Year</option>
                 <option>2019</option>
                 <option>2018</option>
                 <option>2017</option>

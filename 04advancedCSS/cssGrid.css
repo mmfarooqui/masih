@@ -1,0 +1,23 @@
+/* css grid
+    -allows us to create tow-dimensional layouts on a webapp and align items in both columns and grid
+    - all browers support the css grid layout as of march 2017
+
+    flexbox and css grid
+
+    -flexbox is for two dimensioal layouts in columns and rows 
+    /* -grid is for two-dimensional layouts for columns and rows */
+
+.wrapper > div{
+    background: #eee;
+    padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+    background: #bbb;
+}
+.wrapper{
+    display: grid;
+    /* grid-template-columns: 70% 30%; */
+    grid-template-columns: 40% 30% 30%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
